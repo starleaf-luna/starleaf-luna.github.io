@@ -43,3 +43,7 @@ button {
 		background-color: #202020;
 	}
 }
+
+.small {
+	font-size: 16px;
+}
