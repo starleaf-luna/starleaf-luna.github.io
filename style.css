@@ -14,6 +14,10 @@ button {
 	cursor: pointer;
 }
 
+.small {
+	font-size: 16px;
+}
+
 .light {
 	background-color: #DEDEDE;
 	color: #5A3A34;
@@ -42,8 +46,4 @@ button {
 		color: #DEDEDE;
 		background-color: #202020;
 	}
-}
-
-.small {
-	font-size: 16px;
 }
