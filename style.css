@@ -1,0 +1,45 @@
+@font-face {
+	font-family: pixel-operator;
+	src: url("pixel-operator-mono.ttf");
+}
+
+body, button {
+	font-family: pixel-operator, sans-serif;
+	font-size: 32px;
+}
+
+button {
+	outline-width: 4px;
+	outline-style: solid;
+	cursor: pointer;
+}
+
+.light {
+	background-color: #DEDEDE;
+	color: #5A3A34;
+
+	a {
+		color: #5A3A34;
+	}
+
+	button {
+		outline-color: #5A3A34;
+		color: #5A3A34;
+		background-color: #DEDEDE;
+	}
+}
+
+.dark {
+	background-color: #202020;
+	color: #DEDEDE;
+
+	a {
+		color: #DEDEDE;
+	}
+
+	button {
+		outline-color: #DEDEDE;
+		color: #DEDEDE;
+		background-color: #202020;
+	}
+}
